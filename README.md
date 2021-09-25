@@ -40,7 +40,7 @@ I then created a list of these numeric attributes (dropping 'year' for my own 'r
 ![scatterloop2](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%202.png)
 ![scatterloop3](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%203.png)
 
-*Both Kendall and Spearman correlation matrices were also created, just as a practice for using different correlation methods.*
+> *Both Kendall and Spearman correlation matrices were also created, just as a practice for using different correlation methods.*
 
 I then wrote a loop to convert all object data type fields into a category data type, this meant these could then be encoded allowing us to identify correlation coefficients between all features and gross earnings, not just the inherently numeric fields.
 
@@ -59,7 +59,7 @@ Once again a heatmap was created to visualise the correlation relationships acro
 
 With the now all numeric feature dataframe, a correlation matrix was made and then unstacked to produce a list of each feature with the respective correlation coefficient against each of the other features. Two lists were then created, all pairs with a correlation coefficient > 0.5 and those < -0.5 to identify all strong posiive, and negative, correlations respectively.
 
-*It just so happened in this dataset there were no negatively correlated features.*
+> *It just so happened in this dataset there were no negatively correlated features.*
 
 From this analysis, we can identify that Award Votes and Production Budget had highest correlation to Gross Earnings.
 
