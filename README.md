@@ -31,12 +31,14 @@ Following this, I began to examine some potential correlations of the data start
 
 T
 
+![numericpearson](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/numeric%20pearson.png)
+![numericmatrix](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/numeric%20matrix.png)
+
+T
+
 ![scatterloop1](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%201.png)
 ![scatterloop2](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%202.png)
-![scatterloop2](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%203.png)
-
-
-
+![scatterloop3](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%203.png)
 
 Both Kendall and Spearman correlation matrices were also created, just as a practice for using different correlation methods.
 
