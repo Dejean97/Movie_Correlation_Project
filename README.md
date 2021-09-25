@@ -25,12 +25,11 @@ From here, some light data cleaning was required:
 - Converting 'gross' and 'budget' to integer data types
 - Create a 'release_year' column based on the year of 'released', as the provided year didn't match this
 
-Following this, I began to examine some potential correlations of the data starting with 'budget' and 'gross', plotting on a scatter graph.
+Following this, I began to examine some potential correlations of the data starting with 'budget' and 'gross', plotting on a scatter graph. This showed that was a positive correlation between the production budget and gross earnings of a film, which makes reasonable sense and what most production companies would hope to see.
 
 ![scatter](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/scatter%20screenshot.png)
 
-T
-heatmap
+A correlation matrix was then created to show how each feature correlated with eachother, this was using the Pearson correlation method. Of course, wholst this would have included all columns in the dataframe, only the numeric features were shown in the resulting matrix (will come back to this later). We can now clearly see the correlation coefficient of each feature but to aid in readability this matrix was replicated as a heatmap also.
 
 ![numericpearson](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/numeric%20pearson.png)
 ![numericmatrix](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/numeric%20matrix.png)
