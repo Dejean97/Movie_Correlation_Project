@@ -15,9 +15,9 @@ Having downloaded the data of interest, the data was read into a Jupyter Noteboo
 
 First and foremost the shape of the data and the included data types were examined. Following this, I used one of my favourite simple pieces of code to examine the unique values in each column.
 
-  for c in df.columns:
-    print ("---- %s ---" % c)
-    print (df[c].value_counts())
+    for c in df.columns:
+       print ("---- %s ---" % c)
+       print (df[c].value_counts())
 
 This is a basic for loop that prints out the unique values, and value counts, for each column.
 
