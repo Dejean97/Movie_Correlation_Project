@@ -57,6 +57,10 @@ Once again a heatmap was created to visualise the correlation relationships acro
 
 ![allmatrix](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/all%20matrix.png)
 
+With the now all numeric feature dataframe, a correlation matrix was made and then unstacked to produce a list of each feature with the respective correlation coefficient against each of the other features. Two lists were then created, all pairs with a correlation coefficient > 0.5 and those < -0.5 to identify all strong posiive, and negative, correlations respectively.
+
+*It just so happened in this dataset there were no negatively correlated features.*
+
 From this analysis, we can identify that Award Votes and Production Budget had highest correlation to Gross Earnings.
 
 ## Roundup
