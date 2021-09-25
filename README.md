@@ -13,13 +13,21 @@ Having downloaded the data of interest, the data was read into a Jupyter Noteboo
 
 ### Actions in Python
 
-First and foremost the shape of the data and the included data types were examined. Following this, I used one of my favourite simple pieces of code to examine the unique values in each column.
+First and foremost the shape of the data, any columns with missing values and the included data types were examined. Following this, I used one of my favourite simple pieces of code to examine the unique values in each column.
 
     for c in df.columns:
        print ("---- %s ---" % c)
        print (df[c].value_counts())
 
-This is a basic for loop that prints out the unique values, and value counts, for each column.
+This is a basic for loop that prints out the unique values, and value counts, for each column. Of course, it works best for columns with limited possible values (in this case 'country' or 'genre').
+
+From here, some light data cleaning was required:
+- Converting 'gross' and 'budget' to integer data types
+- Create a 'release_year' column based on the year of 'released', as the provided year didn't match this
+
+Following this, I began to examine some potential correlations of the data starting with 'budget' and 'gross', plotting on a scatter graph.
+
+Both Kendall and Spearman correlation matrices were also created, just as a practice for using different correlation methods.
 
 ## Roundup
 
