@@ -61,8 +61,8 @@ With the now all numeric feature dataframe, a correlation matrix was made and th
 
 > *It just so happened in this dataset there were no negatively correlated features.*
 
-From this analysis, we can identify that Award Votes and Production Budget had highest correlation to Gross Earnings.
+From this analysis, we can identify that Award Votes and Production Budget had the highest correlation to Gross Earnings. Whereby, in theory, the more financial resources available to a film's production and the more award nominations/votes it received the greater the financial performance produced in box office earnings. However, it's important to note that correlation analysis only identifies the existence of a relationship and not causation, meaning from this we can't identify whether films that get more award votes earn more in the box office or whether earning more in the box office then translates into more award votes, as an example.
 
 ## Roundup
 
-T
+In summary, this project allowed me to practice some more python and data manipulation in a reasonbly productive way. I was able to practice analysing data to identify features that affect the success, or failure, of another. Whilst this method wasn't particularly scientific, and only examined coefficients as opposed to whether they were significant, it's a decent start and would potentially give direction for future more robust and deep dive analysis.
