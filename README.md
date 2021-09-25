@@ -29,6 +29,15 @@ Following this, I began to examine some potential correlations of the data start
 
 ![scatter](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/scatter%20screenshot.png)
 
+T
+
+![scatterloop1](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%201.png)
+![scatterloop2](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%202.png)
+![scatterloop2](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%203.png)
+
+
+
+
 Both Kendall and Spearman correlation matrices were also created, just as a practice for using different correlation methods.
 
 ## Roundup
