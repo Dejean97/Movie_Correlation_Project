@@ -43,6 +43,8 @@ T
 
 Both Kendall and Spearman correlation matrices were also created, just as a practice for using different correlation methods.
 
+![allmatrix](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/all%20matrix.png)
+
 From this analysis, we can identify that Award Votes and Production Budget had highest correlation to Gross Earnings.
 
 ## Roundup
