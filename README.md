@@ -27,6 +27,8 @@ From here, some light data cleaning was required:
 
 Following this, I began to examine some potential correlations of the data starting with 'budget' and 'gross', plotting on a scatter graph.
 
+![scatter](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/scatter%20screenshot.png)
+
 Both Kendall and Spearman correlation matrices were also created, just as a practice for using different correlation methods.
 
 ## Roundup
