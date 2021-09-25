@@ -34,13 +34,26 @@ A correlation matrix was then created to show how each feature correlated with e
 ![numericpearson](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/numeric%20pearson.png)
 ![numericmatrix](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/numeric%20matrix.png)
 
-T
+I then created a list of these numeric attributes (dropping 'year' for my own 'release_year') which would then be looped through to create scatterplots of each feature against gross earnings, again to better visualise the relationship between these features and gross earnings.
 
 ![scatterloop1](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%201.png)
 ![scatterloop2](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%202.png)
 ![scatterloop3](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/loop%20scatter%203.png)
 
-Both Kendall and Spearman correlation matrices were also created, just as a practice for using different correlation methods.
+*Both Kendall and Spearman correlation matrices were also created, just as a practice for using different correlation methods.*
+
+I then wrote a loop to convert all object data type fields into a category data type, this meant these could then be encoded allowing us to identify correlation coefficients between all features and gross earnings, not just the inherently numeric fields.
+
+       df4_numeric = df3
+        
+    df4_numeric.head()
+         
+    for col in df4_numeric.columns:
+        if(df4_numeric[col].dtype == 'object'):
+            df4_numeric[col]=df4_numeric[col].astype('category')
+            df4_numeric[col] = df4_numeric[col].cat.codes
+
+Once again a heatmap was created to visualise the correlation relationships across the board.
 
 ![allmatrix](https://github.com/Dejean97/Movie_Correlation_Project/blob/main/all%20matrix.png)
 
