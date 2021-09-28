@@ -13,7 +13,7 @@ Having downloaded the data of interest, the data was read into a Jupyter Noteboo
 
 ### Actions in Python
 
-First and foremost the shape of the data, any columns with missing values and the included data types were examined. Following this, I used one of my favourite simple pieces of code to examine the unique values in each column.
+First and foremost I explored the shape of the data, any columns with missing values and the included data types were examined. Following this, I used one of my favourite simple pieces of code to examine the unique values in each column.
 
     for c in df.columns:
        print ("---- %s ---" % c)
